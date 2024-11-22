@@ -1,4 +1,4 @@
-flask==2.3.2
-requests==2.31.0
-flask-cors==3.0.10
+beautifulsoup4==4.12.3
+Flask==3.1.0
+Requests==2.32.3
 uvicorn==0.23.1
