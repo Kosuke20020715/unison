@@ -3,8 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 def search_link(url, timeout=5):
     """指定されたURL内の特定パターンのリンクを収集し、リストとその数を返します。"""
