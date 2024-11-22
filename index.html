@@ -82,7 +82,7 @@
         }
 
         function fetchLinks(url) {
-            fetch(`http://localhost:5000/search?url=${encodeURIComponent(url)}`)
+            fetch(`https://unison-gvoz.onrender.com?url=${encodeURIComponent(url)}`)
                 .then(response => response.json())
                 .then(data => visualizeLinks(data))
                 .catch(error => console.error("Error fetching links:", error));
