@@ -12,7 +12,7 @@
 
 # Usage
 1. http://unison-app.online/  へアクセス
-2. https://unison-career.com/engineer-media/ から始まるurlを入力 (余計なurlが出力されないようにフィルタリング済)
+2. https://unison-career.jp/engineer-media/ から始まるurlを入力 (余計なurlが出力されないようにフィルタリング済)
 3. 404などページが存在しないNodeはグレーに表示される
 4. 右上の検索欄からurlに含まれる数字や英単語の検索が可能
 5. Nodeにカーソルを合わせると、左下にページのスクリーンショットが表示される
